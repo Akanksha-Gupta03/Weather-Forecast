@@ -51,7 +51,7 @@ $(document).ready(function () {
         getCurWeather(location);
         getForecastWeather(location);
       }
-  
+       //function for error
       function error() {
        location = { success: false }
        console.log('Could not get location');
@@ -259,7 +259,6 @@ $(document).ready(function () {
         $('#past-cities').append(cityNameDiv);
       });
      };
-
      // will get location when page initializes
      const location = getCurLocation();
      });
