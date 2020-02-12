@@ -13,11 +13,12 @@ ul{
   
   .card {
     width: 100%;
-    background-color: #ececec;
+    background-color: gainsboro;
   }
   
   .forecast-card {
     background-color: #8FCBFF;
+    border-radius: 15px;
   }
   
   .search-section {
@@ -29,7 +30,7 @@ ul{
     border-width: thin;
     margin: 5px;
     padding-left: 2px;
-    background-color: lightgrey;
+    background-color: rgb(236, 236, 152);
   }
   
   .cityList:hover {
